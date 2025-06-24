@@ -38,7 +38,7 @@ The dataset used is `cab_dataset.csv` and contains:
 
 ### 2. Feature Engineering
 - Extracted features from `pickup_datetime`.
-- Calculated distance between pickup and dropoff points using the Haversine formula.
+- Calculated distance and duration between pickup and dropoff points using the Haversine formula and Geopy library.
 
 ### 3. Model Building
 - Used `RandomForestRegressor` from scikit-learn.
